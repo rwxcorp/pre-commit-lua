@@ -1,0 +1,16 @@
+---
+- id: stylua
+  name: StyLua
+  description: An opinionated Lua code formatter
+  entry: hooks/stylua.sh
+  language: script
+  types:
+    - lua
+
+- id: luacheck
+  name: Luacheck
+  description: Lint and static analysis of Lua code
+  entry: hooks/luacheck.sh
+  language: script
+  types:
+    - lua
